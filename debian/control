@@ -1,0 +1,12 @@
+Source: ros-noetic-zbar-ros
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), libzbar-dev, ros-noetic-catkin, ros-noetic-cv-bridge, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-roslint
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-zbar-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libzbar-dev, ros-noetic-cv-bridge, ros-noetic-nodelet, ros-noetic-roscpp
+Description: Lightweight ROS wrapper for Zbar barcode/qrcode reader library (http://zbar.sourceforge .net/)
